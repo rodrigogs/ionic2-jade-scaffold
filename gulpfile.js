@@ -19,7 +19,7 @@ const paths = {
     '!www/js/app.js',
     '!www/js/routes.js'
   ],
-  css: ['www/css/**/*.css']
+  css: ['www/css/**/*.min.css']
 };
 
 gulp.task('default', ['clean'], done => {
